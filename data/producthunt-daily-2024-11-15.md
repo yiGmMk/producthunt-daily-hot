@@ -84,7 +84,7 @@
 ![The Windsurf Editor](https://ph-files.imgix.net/23af8f9c-55b8-452c-8865-126f7be76126.gif?auto=format&fit=crop&frame=1&h=512&w=1024)
 
 **关键词**：无关键词
-**票数**: 🔺325
+**票数**: 🔺327
 **是否精选**：是
 **发布时间**：2024年11月14日 PM04:01 (北京时间)
 
@@ -99,7 +99,7 @@
 ![AI Slides to Video Presentation Maker](https://ph-files.imgix.net/ef125832-231e-4d1c-9079-6ddb26859331.gif?auto=format&fit=crop&frame=1&h=512&w=1024)
 
 **关键词**：无关键词
-**票数**: 🔺270
+**票数**: 🔺271
 **是否精选**：是
 **发布时间**：2024年11月14日 PM04:01 (北京时间)
 
@@ -129,7 +129,7 @@
 ![Venga App](https://ph-files.imgix.net/2e4f6e54-d31f-4e1e-a118-ec4cabaf756e.png?auto=format&fit=crop&frame=1&h=512&w=1024)
 
 **关键词**：无关键词
-**票数**: 🔺221
+**票数**: 🔺222
 **是否精选**：是
 **发布时间**：2024年11月14日 PM04:01 (北京时间)
 
@@ -330,22 +330,7 @@
 
 ---
 
-## [23. Deep Work Zone](https://www.producthunt.com/posts/deep-work-zone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
-**标语**：Boost productivity with focus & time management 
-**介绍**：Enhance your productivity with Deep Work Zone. Block distractions, track time, and improve focus. Perfect for remote workers, students, and professionals seeking better time management.
-**产品网站**: [立即访问](https://www.producthunt.com/r/YNOIJXY6Z45Y64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
-**Product Hunt**: [View on Product Hunt](https://www.producthunt.com/posts/deep-work-zone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
-
-![Deep Work Zone](https://ph-files.imgix.net/f142d891-c43f-4a60-9aea-a463bda7356d.png?auto=format&fit=crop&frame=1&h=512&w=1024)
-
-**关键词**：无关键词
-**票数**: 🔺107
-**是否精选**：否
-**发布时间**：2024年11月14日 PM04:01 (北京时间)
-
----
-
-## [24. AstroSafe Search](https://www.producthunt.com/posts/astrosafe-search?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+## [23. AstroSafe Search](https://www.producthunt.com/posts/astrosafe-search?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
 **标语**：Safe search engine for kids aged 5-12
 **介绍**：Welcome to AstroSafe Search, a safe search engine for kids 5-12. Explore educational, kid-friendly topics! Hate how long-winded and age-inappropriate wikipedia can be for the classroom? We did too - so we fixed it!
 **产品网站**: [立即访问](https://www.producthunt.com/r/7OCXPU4ZKJ267B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
@@ -356,6 +341,21 @@
 **关键词**：无关键词
 **票数**: 🔺107
 **是否精选**：是
+**发布时间**：2024年11月14日 PM04:01 (北京时间)
+
+---
+
+## [24. Deep Work Zone](https://www.producthunt.com/posts/deep-work-zone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+**标语**：Boost productivity with focus & time management 
+**介绍**：Enhance your productivity with Deep Work Zone. Block distractions, track time, and improve focus. Perfect for remote workers, students, and professionals seeking better time management.
+**产品网站**: [立即访问](https://www.producthunt.com/r/YNOIJXY6Z45Y64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+**Product Hunt**: [View on Product Hunt](https://www.producthunt.com/posts/deep-work-zone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+
+![Deep Work Zone](https://ph-files.imgix.net/f142d891-c43f-4a60-9aea-a463bda7356d.png?auto=format&fit=crop&frame=1&h=512&w=1024)
+
+**关键词**：无关键词
+**票数**: 🔺107
+**是否精选**：否
 **发布时间**：2024年11月14日 PM04:01 (北京时间)
 
 ---

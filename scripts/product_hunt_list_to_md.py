@@ -11,9 +11,13 @@ import pytz
 
 # 创建 OpenAI 客户端实例
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+base_url=os.getenv('OPENAI_API_BASE_URL')
+if base_url!="":
+    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'),)
 
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')
+producthunt_token = os.getenv('PRODUCTHUNT_TOKEN')
 
 class Product:
     def __init__(self, id: str, name: str, tagline: str, description: str, votesCount: int, createdAt: str, featuredAt: str, website: str, url: str, **kwargs):
@@ -54,7 +58,9 @@ class Product:
                 max_tokens=50,
                 temperature=0.7,
             )
-            keywords = response.choices[0].message.content.strip()
+            # 标准api keywords = response.choices[0].message.content.strip()
+            # 代理api
+            keywords = response.choices[0].message.strip()
             if ',' not in keywords:
                 keywords = ', '.join(keywords.split())
             return keywords
@@ -74,7 +80,10 @@ class Product:
                 max_tokens=500,
                 temperature=0.7,
             )
-            translated_text = response.choices[0].message.content.strip()
+
+            #translated_text = response.choices[0].message.content.strip()
+            # 代理api
+            translated_text = response.choices[0].message.strip()
             return translated_text
         except Exception as e:
             print(f"Error occurred during translation: {e}")
@@ -105,6 +114,9 @@ class Product:
         )
 
 def get_producthunt_token():
+    if producthunt_token!="":
+        return producthunt_token
+    
     """通过 client_id 和 client_secret 获取 Product Hunt 的 access_token"""
     url = "https://api.producthunt.com/v2/oauth/token"
     payload = {

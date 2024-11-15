@@ -10,10 +10,12 @@ import pytz
 # load_dotenv()
 
 # 创建 OpenAI 客户端实例
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+api_key=os.getenv('OPENAI_API_KEY')
 base_url=os.getenv('OPENAI_API_BASE_URL')
-if base_url!="":
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'),)
+if base_url:
+    client = OpenAI(api_key=api_key, base_url=base_url)
+else:
+    client = OpenAI(api_key=api_key)
 
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')

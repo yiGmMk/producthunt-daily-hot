@@ -24,7 +24,7 @@
 ![AI Headshot Generator](https://ph-files.imgix.net/a6ec78e4-818c-499e-9093-842ad5b247a7.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024)
 
 **关键词**：无关键词
-**票数**: 🔺536
+**票数**: 🔺538
 **是否精选**：否
 **发布时间**：2024年11月14日 PM04:01 (北京时间)
 
@@ -330,22 +330,7 @@
 
 ---
 
-## [23. AstroSafe Search](https://www.producthunt.com/posts/astrosafe-search?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
-**标语**：Safe search engine for kids aged 5-12
-**介绍**：Welcome to AstroSafe Search, a safe search engine for kids 5-12. Explore educational, kid-friendly topics! Hate how long-winded and age-inappropriate wikipedia can be for the classroom? We did too - so we fixed it!
-**产品网站**: [立即访问](https://www.producthunt.com/r/7OCXPU4ZKJ267B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
-**Product Hunt**: [View on Product Hunt](https://www.producthunt.com/posts/astrosafe-search?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
-
-![AstroSafe Search](https://ph-files.imgix.net/f00a92fd-6a40-47df-b900-b4907c7440f1.png?auto=format&fit=crop&frame=1&h=512&w=1024)
-
-**关键词**：无关键词
-**票数**: 🔺107
-**是否精选**：是
-**发布时间**：2024年11月14日 PM04:01 (北京时间)
-
----
-
-## [24. Deep Work Zone](https://www.producthunt.com/posts/deep-work-zone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+## [23. Deep Work Zone](https://www.producthunt.com/posts/deep-work-zone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
 **标语**：Boost productivity with focus & time management 
 **介绍**：Enhance your productivity with Deep Work Zone. Block distractions, track time, and improve focus. Perfect for remote workers, students, and professionals seeking better time management.
 **产品网站**: [立即访问](https://www.producthunt.com/r/YNOIJXY6Z45Y64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
@@ -356,6 +341,21 @@
 **关键词**：无关键词
 **票数**: 🔺107
 **是否精选**：否
+**发布时间**：2024年11月14日 PM04:01 (北京时间)
+
+---
+
+## [24. AstroSafe Search](https://www.producthunt.com/posts/astrosafe-search?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+**标语**：Safe search engine for kids aged 5-12
+**介绍**：Welcome to AstroSafe Search, a safe search engine for kids 5-12. Explore educational, kid-friendly topics! Hate how long-winded and age-inappropriate wikipedia can be for the classroom? We did too - so we fixed it!
+**产品网站**: [立即访问](https://www.producthunt.com/r/7OCXPU4ZKJ267B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+**Product Hunt**: [View on Product Hunt](https://www.producthunt.com/posts/astrosafe-search?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+weekly+%28ID%3A+148189%29)
+
+![AstroSafe Search](https://ph-files.imgix.net/f00a92fd-6a40-47df-b900-b4907c7440f1.png?auto=format&fit=crop&frame=1&h=512&w=1024)
+
+**关键词**：无关键词
+**票数**: 🔺107
+**是否精选**：是
 **发布时间**：2024年11月14日 PM04:01 (北京时间)
 
 ---

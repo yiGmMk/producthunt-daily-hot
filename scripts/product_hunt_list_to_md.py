@@ -11,7 +11,7 @@ import pytz
 
 # 创建 OpenAI 客户端实例
 api_key=os.getenv('OPENAI_API_KEY')
-base_url=os.getenv('OPENAI_API_BASE_URL')
+base_url=os.getenv('OPENAI_BASE_URL')
 if base_url:
     client = OpenAI(api_key=api_key, base_url=base_url)
 else:

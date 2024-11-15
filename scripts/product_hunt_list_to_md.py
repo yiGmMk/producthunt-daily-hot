@@ -20,7 +20,7 @@ else:
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')
 # 只取前 10 条数据
-top_num=10
+top_num=3
 
 class Product:
     def __init__(self, id: str, name: str, tagline: str, description: str, votesCount: int, createdAt: str, featuredAt: str, website: str, url: str, **kwargs):
@@ -60,6 +60,7 @@ class Product:
                 ],
                 max_tokens=50,
                 temperature=0.7,
+                timeout=600,
             )
             # 标准api keywords = response.choices[0].message.content.strip()
             # 代理api
@@ -82,6 +83,7 @@ class Product:
                 ],
                 max_tokens=500,
                 temperature=0.7,
+                timeout=600,
             )
 
             #translated_text = response.choices[0].message.content.strip()

@@ -17,7 +17,6 @@ if base_url!="":
 
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')
-producthunt_token = os.getenv('PRODUCTHUNT_TOKEN')
 
 class Product:
     def __init__(self, id: str, name: str, tagline: str, description: str, votesCount: int, createdAt: str, featuredAt: str, website: str, url: str, **kwargs):
@@ -113,10 +112,7 @@ class Product:
             f"---\n\n"
         )
 
-def get_producthunt_token():
-    if producthunt_token!="":
-        return producthunt_token
-    
+def get_producthunt_token(): 
     """通过 client_id 和 client_secret 获取 Product Hunt 的 access_token"""
     url = "https://api.producthunt.com/v2/oauth/token"
     payload = {

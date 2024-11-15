@@ -19,6 +19,8 @@ else:
 
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')
+# 只取前 10 条数据
+top_num=10
 
 class Product:
     def __init__(self, id: str, name: str, tagline: str, description: str, votesCount: int, createdAt: str, featuredAt: str, website: str, url: str, **kwargs):
@@ -169,7 +171,7 @@ def fetch_product_hunt_data():
     has_next_page = True
     cursor = ""
 
-    while has_next_page and len(all_posts) < 30:
+    while has_next_page and len(all_posts) < top_num:
         query = base_query % (date_str, date_str, cursor)
         response = requests.post(url, headers=headers, json={"query": query})
 
@@ -183,8 +185,8 @@ def fetch_product_hunt_data():
         has_next_page = data['pageInfo']['hasNextPage']
         cursor = data['pageInfo']['endCursor']
 
-    # 只保留前30个产品
-    return [Product(**post) for post in sorted(all_posts, key=lambda x: x['votesCount'], reverse=True)[:30]]
+    # 只保留前top_num个产品
+    return [Product(**post) for post in sorted(all_posts, key=lambda x: x['votesCount'], reverse=True)[:top_num]]
 
 def generate_markdown(products, date_str):
     """生成Markdown内容并保存到data目录"""
